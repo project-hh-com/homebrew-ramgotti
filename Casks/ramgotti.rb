@@ -1,12 +1,12 @@
 cask "ramgotti" do
-  version "0.1.7"
+  version "0.1.8"
 
   on_arm do
-    sha256 "b09fd8fb6879c23dbf5be16ac1dd7027a51ea4948b316af833a96c6e49983d6a"
+    sha256 "8cbc72deb30b6c00f09856de0e479bf84fed96f5d2ccf7d4cfd36c15d8015d18"
     url "https://github.com/project-hh-com/ramgotti/releases/download/v#{version}/RAMgotti-arm64.dmg"
   end
   on_intel do
-    sha256 "5d8a1368dc742f6bf218b5cad60130262883a69cf8bf14bcb00a26bb20d4b028"
+    sha256 "e1b213fcc3cb50f2230ea87d8ab2a2299850ec7e1cedbdd6cf35fe71484502e4"
     url "https://github.com/project-hh-com/ramgotti/releases/download/v#{version}/RAMgotti-x64.dmg"
   end
 
